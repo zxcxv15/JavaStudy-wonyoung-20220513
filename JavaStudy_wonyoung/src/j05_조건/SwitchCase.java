@@ -8,8 +8,9 @@ public class SwitchCase {
 		int num = 29;
 		char c = 'd';
 		String str = "김준형";
-		switch (num / 10) { // 연산 가능
-			case 1:
+		
+		switch (num / 10) { // int (자료형이 일치해야 한다)
+			case 1: //int
 				System.out.println("case 1");
 				break;
 			case 2:
@@ -20,8 +21,8 @@ public class SwitchCase {
 			default:
 				System.out.println("찾을 수 없음");
 			}
-		switch (c) {
-			case 'a':
+		switch (c) {  //char
+			case 'a': //char
 				System.out.println("case a");
 				break;
 			case 'b':
@@ -33,8 +34,8 @@ public class SwitchCase {
 			default:
 				System.out.println("찾을 수 없음");	
 		}
-		switch (str) {
-			case "장원영":
+		switch (str) {		//string
+			case "장원영": //string
 				System.out.println("case 장원영");
 				break;
 			case "박준형":
