@@ -3,7 +3,7 @@ package j07_메소드;
 import java.util.Scanner;
 
 public class Method01 {
-	//메서드(이름을 동사형으로 지어주자)는 = 함수
+	//메서드(이름을 동사형으로 지어주고 소문자로 시작)는 = 함수
 	public static int clacFormula1(int a, int b, int c, int d, int e) { //입력
 		int result = a + (b * c) - (d * e);
 		return result; //출력
