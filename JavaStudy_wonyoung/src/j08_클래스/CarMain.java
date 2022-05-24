@@ -20,6 +20,7 @@ package j08_클래스;
 public class CarMain {
 
 	public static void main(String[] args) {
+		
 		Car car1 = new Car();
 		car1.company = "KIA";
 		car1.model = "K7";

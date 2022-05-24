@@ -45,7 +45,7 @@ public class Method02 {
 		test1(); //호출 System.out.println: 반환할 값이 없으니 출력 x
 		test2(27,1996); //각의 변수에 대입
 		String name = test3(); //값이니까 변수에도 넣을수 있다.
-		System.out.println(name); // -> test3자체가 장원영이라는 값이 된다.
+		System.out.println(name); 
 		System.out.println(test5("장원영",1));
 		test6();
 		System.out.println("메인함수 끝");		
