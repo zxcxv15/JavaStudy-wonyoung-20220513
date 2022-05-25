@@ -10,7 +10,7 @@ public class Student {
 	}
 
 	// getter
-	public String getNmae() {
+	public String getName() {
 		return name;
 	}
 

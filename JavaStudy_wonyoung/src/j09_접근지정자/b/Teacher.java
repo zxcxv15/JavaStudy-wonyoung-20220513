@@ -31,7 +31,7 @@ public class Teacher {
 	
 	public void showInfo() {
 		String _address = createMassege(name, address);
-		String _phone = createMassege(_address, phone);
+		String _phone = createMassege(address, phone);
 		
 		System.out.println(_address);
 		System.out.println(_phone);

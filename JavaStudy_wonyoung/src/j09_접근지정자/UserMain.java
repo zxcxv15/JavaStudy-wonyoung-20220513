@@ -10,7 +10,7 @@ public class UserMain {
 		Teacher teacher = new Teacher();
 
 		student.setName("장원영");
-		System.out.println(student.getNmae()); // => getName에 있는 값을 가져와라(매개변수가 필요 없다 -> 그냥 return 값만 가져오면 되니 자료형만 같으면 된다)
+		System.out.println(student.getName()); // => setName에 있는 값을 가져와라(매개변수가 필요 없다 -> 그냥 return 값만 가져오면 되니 자료형만 같으면 된다)
 		
 		teacher.setName("김준이");
 		teacher.setAddress("부산");

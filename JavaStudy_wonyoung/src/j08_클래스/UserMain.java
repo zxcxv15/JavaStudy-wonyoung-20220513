@@ -10,12 +10,12 @@ public class UserMain {
 		user1.setName("aaa");
 		System.out.println("두번째: " + user1.name);
 		
-		User user2 = new User("장원영", "27", "010-2028-3850", "부산광역시");
-		System.out.println(user2.name);
-		System.out.println(user2.age);
-		System.out.println(user2.phone);
-		System.out.println(user2.address);
-		
+//		User user2 = new User("장원영", "27", "010-2028-3850", "부산광역시");
+//		System.out.println(user2.name);
+//		System.out.println(user2.age);
+//		System.out.println(user2.phone);
+//		System.out.println(user2.address);
+//		
 	}
 
 }
