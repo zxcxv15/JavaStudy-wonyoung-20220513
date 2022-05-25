@@ -5,7 +5,7 @@ import java.util.Scanner;
 import j10_클래스기본정리.repository.User;
 
 public class UserSevice {
-	
+
 	private Scanner scanner;
 
 	public UserSevice() {
@@ -13,8 +13,8 @@ public class UserSevice {
 	}
 
 	public User insertUser() {
-		showInsertView();
-		String usercode = null;
+		showInsertView(); // 1. 메서드 호출
+		String usercode = null; 
 		String email = null;
 		String name = null;
 		String username = null;
@@ -35,7 +35,7 @@ public class UserSevice {
 		return user;
 	}
 
-	private void showInsertView() {
+	private void showInsertView() { 
 		System.out.println("[사용자 추가]");
 		System.out.println("아래의 양식에 맞게 정보를 입력하세요.");
 	}

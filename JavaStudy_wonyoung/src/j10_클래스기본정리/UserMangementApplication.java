@@ -1,15 +1,12 @@
 package j10_클래스기본정리;
 
-import j10_클래스기본정리.controller.UserManagementCoontroller;
+import j10_클래스기본정리.controller.UserManagementController;
 
 public class UserMangementApplication {
 
 	public static void main(String[] args) {
-		UserManagementCoontroller userManagementCoontroller = new UserManagementCoontroller();
-		userManagementCoontroller.createUser();
-		
-		
-		
+		UserManagementController userManagementController = new UserManagementController();
+		userManagementController.createUser();
 
 	}
 
