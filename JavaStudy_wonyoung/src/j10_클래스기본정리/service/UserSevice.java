@@ -11,9 +11,10 @@ public class UserSevice {
 	public UserSevice() {
 		scanner = new Scanner(System.in);
 	}
-
+	//return의 자료형(User)
 	public User insertUser() {
 		showInsertView(); // 1. 메서드 호출
+		//insertUser에서 사용하려고 만든 변수
 		String usercode = null; 
 		String email = null;
 		String name = null;
@@ -31,6 +32,8 @@ public class UserSevice {
 		System.out.print("비밀번호: ");
 		password = scanner.nextLine();
 
+		//User형태로 반환해라  // User 클래스에 있는 User생성자
+		//새로운 유저를 생성해준다
 		User user = new User(usercode, email, name, username, password);
 		return user;
 	}
