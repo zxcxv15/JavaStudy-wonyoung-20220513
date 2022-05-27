@@ -34,6 +34,7 @@ public class UserSevice {
 
 		//User형태로 반환해라  // User 클래스에 있는 User생성자
 		//새로운 유저를 생성해준다
+		//전체 생성자를 호출해라 그리고 리턴해라.
 		User user = new User(usercode, email, name, username, password);
 		return user;
 	}

@@ -15,8 +15,8 @@ public class UserManagementController {
 
 	public void createUser() {
 		int indexResult = findEmptyInUsers();
+		//0 또는 1이 넘어 오겠지
 		if (indexResult != -1) {
-
 			users[indexResult] = userSevice.insertUser();
 
 			System.out.println("[새로 추가된 사용자]");
@@ -29,7 +29,7 @@ public class UserManagementController {
 	private int findEmptyInUsers() {
 		for (int i = 0; i < users.length; i++) {
 			if (users[i] == null) {
-				return i;
+				return i; // 0 , 1
 			}
 		}
 		return -1;

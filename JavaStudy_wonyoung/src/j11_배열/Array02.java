@@ -25,7 +25,8 @@ public class Array02 {
 			}
 		}
 		//8의 배수일 때 배열에 담아주고 배열을 1씩 증가시켜라
-		int[] numbers = new int[size];
+		int[] numbers; // 배열 변수 선언 
+		numbers = new int[size]; // size변수의 크기에 해당하는 배열의 생성
 
 		for (int i = 0, j = 0; i < 100; i++) {
 			if (i != 0 && i % 8 == 0) {

@@ -43,6 +43,10 @@ public class Array01 {
 			System.out.println(strAtrray[i]);
 		}
 
+		for(int i = 0; i < characters.length; i++) {
+			System.out.println(characters[i]);
+		}
+
 	}
 
 }
