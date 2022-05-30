@@ -10,3 +10,10 @@ public class Factory {
 		System.out.println("공장을 가동합니다.");
 	}
 }
+
+/*
+ * 업캐스팅은 상속이 되어져 있어야 가능
+ * 
+ * 
+ * 다운캐스팅
+ */

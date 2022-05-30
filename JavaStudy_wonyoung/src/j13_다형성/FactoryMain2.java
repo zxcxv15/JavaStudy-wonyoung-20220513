@@ -16,21 +16,22 @@ public class FactoryMain2 {
 			factorys[i] = i % 2 == 0 ? new SmartPhoneFactory() : new ComputerFactory();
 		}
 
-		for (Factory factory : factorys) {
-			factory.start();
-		}
+//		for (Factory factory : factorys) {
+//			factory.start();
+//		}
+//
+//		int i = 10;
+//		double d = i;
+//		int ii = (int) i;
 
-		int i = 10;
-		double d = i;
-		int ii = (int) i;
-
-		System.out.println();
 		// 다운캐스팅
-		for (Factory factory : factorys) {
+		for (Factory factory : factorys) { // foreach문 factorys에 있는 값을 factory에 대입해 반복해라
+			factory.start();
 			//원래의 생성된 것이 무엇인지 알려주는 것 = instanceof
 			if(factory instanceof SmartPhoneFactory) {
 				SmartPhoneFactory spf = (SmartPhoneFactory) factory;	
 				spf.showSmartPhone();
+				
 				
 			}else if(factory instanceof ComputerFactory) {
 				ComputerFactory cf = (ComputerFactory) factory;
