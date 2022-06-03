@@ -3,7 +3,7 @@ package j17_스택틱.싱글톤.factory;
 public class KIA {
 	
 	private static KIA instance; //1
-	private int serial_auto_increment = 2022000; // 기본 값
+	private int serial_auto_increment = 2022000; //  기본 값
 	
 	private KIA() {} //2
 	

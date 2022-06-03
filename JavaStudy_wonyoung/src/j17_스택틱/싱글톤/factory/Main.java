@@ -1,7 +1,7 @@
 package j17_스택틱.싱글톤.factory;
 
 public class Main {
-//배열로 묶어봐
+
 	public static void main(String[] args) {
 		KIA kiaFactory1 = KIA.getInstance();
 		KIA kiaFactory2 = KIA.getInstance();

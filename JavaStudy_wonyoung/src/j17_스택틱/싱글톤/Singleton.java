@@ -11,7 +11,7 @@ package j17_스택틱.싱글톤;
 public class Singleton {
 	// 클래스 이름과 동일
 	// static 메소드에서는 일반 변수는 쓸 수 없다(생성 필요 x) --> 생성이 필요한 변수는 쓸 수 없다.
-	private static Singleton instance = new Singleton(); //
+	private static Singleton instance;
 	private int count; 
 
 	private Singleton() { // 2.생성자를 만들수 없도록 무족건 private

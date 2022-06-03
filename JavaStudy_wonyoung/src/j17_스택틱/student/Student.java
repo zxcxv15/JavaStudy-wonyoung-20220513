@@ -23,7 +23,7 @@ public class Student {
 		this.student_year = student_year;
 	}
 	
-	
+	//이거 대신 toString을 활용해서 사용할 수 있다.
 	public void studentInfo() {
 		System.out.println("학번: " + student_code);
 		System.out.println("이름: " + student_name);

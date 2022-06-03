@@ -2,13 +2,14 @@ package j17_스택틱;
 
 public class Main {
 	public static void main(String[] args) {
-
+		//인스턴스 클래스
+		
 		//클래스 = 틀 --> t,t2,t3을 생성(클래스는 각자 한테 주어진다)?
 		Test t = new Test();
 		Test t2 = new Test();
 		Test t3 = new Test();
 		
-		//각각의 메소드들에 대입
+		//각각의 메소드들에 대입 = 값이 초기화된다.
 		t.cnt = 10; 
 		t2.cnt = 20;
 		t3.cnt = 30;
@@ -35,8 +36,9 @@ public class Main {
 //		st2.staticmethod();
 //		st3.staticmethod();
 //		
-		StaticTest.cnt = 100; 	// 스태틱 = 젤 마지막에 들어가 값이 공유된다.(변수나 메소드에 사용)
-								// 자주쓰이고 공통적으로 쓰이는 것.
+		StaticTest.cnt = 100; 
+		// 스태틱 = 젤 마지막에 들어가 값이 공유된다.(변수나 메소드에 사용)
+		// 스태틱 클래스					// 자주쓰이고 공통적으로 쓰이는 것.
 		StaticTest.staticmethod();
 	}
 
