@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class ArrayListEx2 {
 	public static void main(String[] args) {
 		//ArrayList: 순서가 있고 값의 중복을 허용한다.,toString(안에 어떤값이 있는지)을 지원한다.
+		//컬렉션이라는 클래스를 상속받는다
 		ArrayList<String> nameList = new ArrayList<String>();
 		ArrayList<String> nameList2 = new ArrayList<String>();
 		
